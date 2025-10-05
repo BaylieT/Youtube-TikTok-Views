@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffb347 0%, #ffccff 100%);
+    margin: 0;
+    color: #222;
+}
+header {
+    background: #fff;
+    padding: 32px 0 16px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+main {
+    max-width: 900px;
+    margin: 32px auto;
+    background: rgba(255,255,255,0.85);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 24px;
+}
+.platform {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #eee;
+}
+.platform h2 {
+    color: #ff0055;
+    margin-top: 0;
+}
+.platform ul {
+    margin: 0 0 12px 0;
+    padding-left: 20px;
+}
+button {
+    background: #ff0055;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+button:hover {
+    background: #ffb347;
+    color: #222;
+}
+.ideas {
+    margin-top: 8px;
+    font-style: italic;
+    color: #0077ff;
+}
+.resources ul {
+    padding-left: 20px;
+}
+.resources a {
+    color: #ff0055;
+    text-decoration: none;
+}
+.resources a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 24px 0;
+    background: #fff;
+    margin-top: 32px;
+    color: #888;
+    border-top: 1px solid #eee;
+}
